@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SDLGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SDLGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SDLGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/SDL_Dev/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image" />
+			<Add option="-lSDL2_mixer" />
+			<Add directory="C:/SDL_Dev/lib" />
+		</Linker>
+		<Unit filename="AllClassDisciption.hpp" />
+		<Unit filename="AlllFunctionDiscription.hpp" />
+		<Unit filename="AnimationNum.hpp" />
+		<Unit filename="Boom.hpp" />
+		<Unit filename="Box.hpp" />
+		<Unit filename="Coins.hpp" />
+		<Unit filename="Enemey.hpp" />
+		<Unit filename="Events.hpp" />
+		<Unit filename="FileHandling.hpp" />
+		<Unit filename="Fire.hpp" />
+		<Unit filename="Flage.hpp" />
+		<Unit filename="GunBullets.hpp" />
+		<Unit filename="Rectangle.hpp" />
+		<Unit filename="ResolveCollision.hpp" />
+		<Unit filename="Rocket.hpp" />
+		<Unit filename="camera.hpp" />
+		<Unit filename="createPlateform.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="requiredFunction.hpp" />
+		<Unit filename="requiredVerialbes.hpp" />
+		<Unit filename="window.hpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
